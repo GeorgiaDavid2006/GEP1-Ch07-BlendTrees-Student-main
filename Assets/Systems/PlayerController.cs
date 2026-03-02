@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     private int MoveInputXHash = Animator.StringToHash("MoveInputX");
     private int MoveInputYHash = Animator.StringToHash("MoveInputY");
     private int IsMovingHash = Animator.StringToHash("IsMoving");
+    private int LastMoveXHash = Animator.StringToHash("LastMoveX");
+    private int LastMoveYHash = Animator.StringToHash("LastMoveY");
 
     private void Awake()
     {
